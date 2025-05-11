@@ -1,0 +1,76 @@
+Populate the repository with meaningful content based on the SuperStacks campaign details.
+README.md
+Edit the README.md to introduce the repository and guide users.
+markdown
+
+# SuperStacks Campaign - Superchain
+
+Welcome to the SuperStacks Campaign repository, a resource hub for the Optimism Foundation's experimental pilot to incentivize interoperable behavior across the Superchain ecosystem. Running from April 16 to June 30, 2025, SuperStacks rewards participants with XP for actions like providing liquidity and bridging assets across OP Chains.
+
+## About SuperStacks
+SuperStacks is the first Superchain-wide incentive program designed to:
+- Reward cross-chain interactions using interoperable assets (e.g., USDT0).
+- Test unified economic incentives across multiple OP Chains.
+- Lay the groundwork for a scalable, interoperable Superchain economy.
+
+**Note**: XP is experimental, non-transferable, and does not guarantee future rewards.
+
+## Repository Contents
+- **/docs**: Guides, FAQs, and campaign details.
+- **/contracts**: Example smart contracts for Superchain interoperability (e.g., SuperchainERC20).
+- **/scripts**: Tools to interact with the campaign (e.g., XP leaderboard checks).
+- **/frontend**: Optional frontend for user interaction.
+
+## Getting Started
+1. **Read the Docs**: Start with `docs/overview.md` for campaign details.
+2. **Participate**: Follow `docs/participation-guide.md` to earn XP.
+3. **Contribute**: Submit pull requests with improvements or additional resources.
+
+## Resources
+- [Official SuperStacks Website](https://www.superchain.eco/superstacks)
+- [Optimism Collective Announcement](https://optimism.mirror.xyz)
+- [Superchain Registry](https://github.com/ethereum-optimism/superchain-registry)
+
+## License
+This repository is licensed under the MIT License. See `LICENSE` for details.
+
+docs/overview.md
+Create a file in docs/ to summarize the campaign.
+markdown
+
+# SuperStacks Campaign Overview
+
+SuperStacks is an experimental pilot by the Optimism Foundation, running from April 16 to June 30, 2025. It aims to incentivize interoperable behavior across the Superchain, a network of modular, interoperable blockchains built on the OP Stack.
+
+## Key Features
+- **XP System**: Earn Experience Points (XP) for actions like bridging USDT0 or providing liquidity in designated DeFi pools across OP Chains (e.g., OP Mainnet, Base).
+- **Interoperability Focus**: Rewards behaviors that enhance cross-chain synergy.
+- **Dynamic Rules**: Campaign criteria, pools, and rewards may evolve based on community feedback.
+
+## Why It Matters
+SuperStacks tests a new model for ecosystem-wide incentives, moving beyond siloed airdrops to reward network-wide contributions. It prepares the Superchain for full interoperability launch.
+
+**Source**: Optimism Collective, Superchain Eco[](https://optimism.mirror.xyz/VcgOzzYe4iQ_Ouh5cs9AWPuStZn8xQEH2PvUw8JkFYk)[](https://www.superchain.eco/programs/superstacks)
+
+docs/participation-guide.md
+Guide users on how to participate.
+markdown
+
+# How to Participate in SuperStacks
+
+Follow these steps to earn XP in the SuperStacks campaign:
+
+1. **Connect Your Wallet**: Use a compatible wallet (e.g., MetaMask) on the SuperStacks website.
+2. **Bridge Assets**: Bridge interoperable assets like USDT0 to supported OP Chains (e.g., OP Mainnet, Base).
+3. **Provide Liquidity**: Add liquidity to designated DeFi pools listed on the SuperStacks dashboard.
+4. **Track XP**: Monitor your XP and leaderboard ranking via the official dashboard.
+5. **Stay Updated**: Check for new missions, pools, or reward multipliers until June 30, 2025.
+
+**Note**: XP is experimental and does not guarantee future rewards. Rules may change at the Optimism Foundation's discretion.
+
+**Resources**:
+- [SuperStacks Dashboard](https://www.superchain.eco/superstacks)
+- [Freecoins24 Guide](https://freecoins24.io)[](https://freecoins24.io/airdrops/optimism-superstacks-campaign/)
+
+**Source**: Optimism Collective, Freecoins24[](https://freecoins24.io/airdrops/optimism-superstacks-campaig
+
