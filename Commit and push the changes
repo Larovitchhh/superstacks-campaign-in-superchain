@@ -1,0 +1,15 @@
+Stage Files:
+bash
+
+git add .
+
+Commit:
+bash
+
+git commit -m "Initial commit: SuperStacks campaign repository setup"
+
+Push to GitHub:
+bash
+
+git push origin main
+
