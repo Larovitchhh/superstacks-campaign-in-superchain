@@ -1,0 +1,29 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "https://github.com/ethereum-optimism/superchain-contracts/blob/main/contracts/interfaces/IERC7802.sol";
+
+contract SuperchainERC20 is ERC20, IERC7802 {
+    address public immutable bridge;
+
+    constructor(
+        address _bridge,
+        string memory name_,
+        string memory symbol_
+    ) ERC20(name_, symbol_) {
+        bridge = _bridge;
+    }
+
+    function crosschainMint(address account, uint256 amount) external override {
+        require(msg.sender == bridge, "Only bridge can mint");
+        _mint(account, amount);
+        emit CrosschainMint(account, amount);
+    }
+
+    function crosschainBurn(address account, uint256 amount) external override {
+        require(msg.sender == bridge, "Only bridge can burn");
+        _burn(account, amount);
+        emit CrosschainBurn(account, amount);
+    }
+}
